@@ -1,13 +1,13 @@
 {
   "name": "react-router-ssr",
-  "version": "3.0.0",
-  "description": "Server-side rendering for react-router and react-meteor-data rehydratating Meteor subscriptions",
+  "version": "3.2.0",
+  "description": "Server-side rendering for react-router and react-meteor-data rehydratating Meteor subscriptions, updated for Meteor 1.4.2+",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thereactivestack/meteor-react-router-ssr.git"
+    "url": "git+https://github.com/jdconley/meteor-react-router-ssr.git"
   },
   "keywords": [
     "meteor",
@@ -17,20 +17,23 @@
     "ssr",
     "server-rendering"
   ],
-  "author": "Benoit Tremblay <benoit@thereactivestack.com>",
+  "author": "JD Conley <jd.conley@gmail.com>",
+  "contributors": [
+    {"name": "Benoit Tremblay", "email": "benoit@thereactivestack.com", "url": "https://github.com/thereactivestack"}
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thereactivestack/meteor-react-router-ssr/issues"
+    "url": "https://github.com/jdconley/meteor-react-router-ssr/issues"
   },
-  "homepage": "https://github.com/thereactivestack/meteor-react-router-ssr#readme",
+  "homepage": "https://github.com/jdconley/meteor-react-router-ssr#readme",
   "dependencies": {
-    "cheerio": "^0.20.0",
+    "cheerio": "^0.22.0",
     "cookie-parser": "^1.4.1",
     "promise": "^7.1.1",
     "react": "^15.3.0",
     "react-dom": "^15.3.0",
     "react-helmet": "^3.1.0",
-    "react-router": "^2.0.1",
+    "react-router": "^3.0.0",
     "underscore": "^1.8.3"
   }
 }

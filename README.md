@@ -1,4 +1,5 @@
-# WARNING: This project is no longer in active maintenance. If you would like to maintain it, contact me at benoit@thereactivestack.com
+# Forked from thereactivestack, updated for Meteor 1.4.2+
+This is a fork of [thereactivestack/meteor-react-router-ssr](https://github.com/thereactivestack-legacy/meteor-react-router-ssr). It is for Meteor 1.4.2+ and react-router 3.x.
 
 Server-side rendering for react-router and react-meteor-data rehydratating Meteor subscriptions
 
@@ -7,7 +8,7 @@ It has a protection against leaking your data. Only subscribed data will be avai
 What about your SEO? Just `npm install react-helmet` and hook it with `htmlHook(html): string` (see the example below).
 
 ## Install
-`meteor add reactrouter:react-router-ssr`
+`meteor add jdconley:react-router-ssr`
 
 ## Usage
 ### `ReactRouterSSR.Run(routes, [clientOptions], [serverOptions])`
@@ -53,7 +54,7 @@ To keep a particuliar code in the head, you can add the `data-dont-move` attribu
 import React, { Component } from 'react';
 import ReactMixin from 'react-mixin';
 import { IndexRoute, Route } from 'react-router';
-import { ReactRouterSSR } from 'meteor/reactrouter:react-router-ssr';
+import { ReactRouterSSR } from 'meteor/jdconley:react-router-ssr';
 
 AppRoutes = (
   <Route path="/" component={App}>
