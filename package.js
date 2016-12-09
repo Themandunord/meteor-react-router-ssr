@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'jdconley:react-router-ssr',
+  name: 'jconley:react-router-ssr',
   version: '3.2.0',
   summary: 'Server-side rendering for react-router and react-meteor-data rehydratating Meteor subscriptions, for Meteor 1.4.2+',
   git: 'https://github.com/jdconley/meteor-react-router-ssr.git',

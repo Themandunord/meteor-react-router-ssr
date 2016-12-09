@@ -8,7 +8,7 @@ It has a protection against leaking your data. Only subscribed data will be avai
 What about your SEO? Just `npm install react-helmet` and hook it with `htmlHook(html): string` (see the example below).
 
 ## Install
-`meteor add jdconley:react-router-ssr`
+`meteor add jconley:react-router-ssr`
 
 ## Usage
 ### `ReactRouterSSR.Run(routes, [clientOptions], [serverOptions])`
@@ -54,7 +54,7 @@ To keep a particuliar code in the head, you can add the `data-dont-move` attribu
 import React, { Component } from 'react';
 import ReactMixin from 'react-mixin';
 import { IndexRoute, Route } from 'react-router';
-import { ReactRouterSSR } from 'meteor/jdconley:react-router-ssr';
+import { ReactRouterSSR } from 'meteor/jconley:react-router-ssr';
 
 AppRoutes = (
   <Route path="/" component={App}>
